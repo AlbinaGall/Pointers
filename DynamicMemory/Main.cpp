@@ -166,6 +166,7 @@ int* Erase(int arr[], int& n, const int index){
 	{
 		bufarr[i < index ? i : i + 1] = arr[i];
 	}
+
 	delete[] arr;
 	arr = bufarr;
 	n++;
